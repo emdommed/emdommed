@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emdom.med</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+            document.addEventListener("click",function (e){
+              if(e.target.classList.contains("gallery-item")){
+                  const src = e.target.getAttribute("src");
+                  document.querySelector(".modal-img").src = src;
+                  const myModal = new bootstrap.Modal(document.getElementById('gallery-popup'));
+                  myModal.show();
+              }
+            })
+        </script>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    
+</head>
+<body>
+ <div class="main-header">
+<a href="#" id="logo"><img src="images/logo.png" alt=""></a>
+<div class="textOnmain">
+    <h1 class="Basty_text"> 
+        Стоматология </h3>
+
+      <h1 class="nickname">    EMDOM-MED </h1>
+    
+</div>
+
+<div class="menu-icons">
+    <div class="inner-menu-icons">
+        <i class="far fa-clock"></i>
+        <div class="inner-menu-content">
+            <span><h1 class="text_basindagi"><b>Время работы: </h1></b></span>
+	    <span>09:00-18:00</span>
+            <span>Воскресенье-выходной</span>
+        </div>
+    </div>
+    <div class="inner-menu-icons">
+        <i class="fas fa-envelope"></i>
+        <div class="inner-menu-content">
+            <span><b><h1 class="text_basindagi">Наш адресс:</h1></b></span>
+            <span>Город Алматы, улица имени Аль-Фараби ,74</span>
+        </div>
+    </div>
+    <div class="inner-menu-icons">
+        <i class="fas fa-phone-alt"></i>
+        <div class="inner-menu-content">
+            <span><b><h1 class="text_basindagi">Байланыс:</h1></b></span>
+ 		<span>Emdom.med.kz@gov.kz</span>
+            <span>+7707 717 17 17</span>
+        </div>
+    </div>
+</div>
+
+ </div>
+
+ 
+<div class="second-menu">
+    <div class="dropdown">
+
+        <button class="link">  
+            
+            <span class="button__icon">   
+                    
+                <ion-icon name="send-outline"></ion-icon>    
+            
+            </span>
+
+            <span> Контакты </span>
+
+            <br>
+
+        </button> 
+
+        <div class="dropdown-menu">
+               <b><h1>    Наш почта <br>
+                   Emdom.med@gov.kz</h1></b>
+         </div>
+
+          
+
+
+
+    </div>  
+
+    <div class="dropdown">
+
+        <button class="link">  
+           
+            <span>   <ion-icon name="logo-ionitron"></ion-icon> </span> 
+                <span>Детская стоматология  </span> 
+            
+        
+        </button> 
+
+        <div class="dropdown-menu">
+
+            <b><h1>    Терапия <br>  Хирургия <br> Ортопедия<br>Ортопедия<br>Гигиена и профилактика </h1></b>
+      </div>
+
+
+
+
+    </div>
+
+    <div class="dropdown">
+        <button class="link"> 
+            <span class="vzros"> <ion-icon name="man-outline"></ion-icon></span>
+            <span>   Взрослая стоматология </span> 
+         </button> 
+
+        <div class="dropdown-menu">
+            <b><h1>  Эстетическая стоматология  <br>Пародонтология <br>Ортодонтия <br> Ортодонтия <br>Имплантация  <br> Хирургия<br> Терапия<br> </h1></b>
+            
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <div class="dropdown">
+
+
+        <button class="link">  
+            <span>  <ion-icon name="desktop-outline"></ion-icon>   </span> 
+            <span> Диагностика </span>     
+
+
+
+        </button> 
+
+       
+
+
+        <div class="dropdown-menu">
+            <h1> <b>ЗВОНИТЕ ИЛИ МЫ ВАМ ПЕРЕЗВОНИМ! </b><br><br> </h1>
+            <span><b><h1>Emdom.med.kz@gov.kz</h1></span>
+            <span><b><h1>+7707 717 17 17</h1></span>
+
+            
+            
+        </div>
+        
+
+
+
+
+    </div>
+
+    <div>
+        <button>
+          <a href="https://www.google.com/maps/place/%D3%98%D0%BB-%D0%A4%D0%B0%D1%80%D0%B0%D0%B1%D0%B8+%D0%B4%D0%B0%D2%A3%D2%93%D1%8B%D0%BB%D1%8B+74,+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B/@43.2089757,76.9133989,17z/data=!3m1!4b1!4m5!3m4!1s0x388368b5663988a7:0x998d18a643d77e2!8m2!3d43.2089757!4d76.9155929" target="_blank" >Наш адрес </a>
+        </button>
+    </div>
+    
+    
+    
+            
+
+
+   
+</div>
+
+
+
+<!-- background image -->
+
+<section class="background-image">
+    <div class="background-content">
+        <h2 class="Klinka_est">Клиника эстетической стоматологии <br>
+            EmDom.med </h2>
+            <a href="https://mail.google.com/mail/u/2/#inbox?compose=CllgCJZWxvHhxCBZNBwsKVXHBmFpkKvXgwngTLQbXCMncHhqjnkMwXqDLQWmlqCNxvwqXvhrqML" target="_blank"><b>Пишите нам прямо сейчас</b></a>
+    </div>
+    
+</section>
+
+
+<!-- our services -->
+
+
+<div class="our-services">
+    <h1>О НАС</h1>
+
+
+    <div class="main-services">
+        <div class="inner-main-services">
+            <i class="fas fa-users"></i>
+            <h2>ЦЕЛЬ</h2>
+            <p> Наша цель предоставлять людям высококачественное лечение и дарить эмоции счастья.
+</p>
+        </div>
+
+        <div class="inner-main-services">
+            <i class="fas fa-clinic-medical"></i>
+            <h2><b>ВЫСОКО ­КВАЛИФИЦИРОВАННЫЕ ВРАЧИ</b></h2>
+            <p> Мы имеем самые лучшие врачи который обучалось высших университетах за границей и имеющих лучшие знание в своем профессии. Каждый врач имеет опыт более 10 лет. Поэтому многие пациенты верить нас. </p>
+        </div>
+
+        <div class="inner-main-services">
+            <i class="fas fa-user-tie"></i>
+            <h2><b>ГАРАНТИЯ НА ЛЕЧЕНИЕ</b></h2>
+            <p> Мы даем гарантию на любой лечение. Мы работаем уже 20 лет (2001). Благодаря лучшим врачам мы дарим радость каждым пациентам.</p>
+        </div>
+
+        <div class="inner-main-services">
+            <i class="fas fa-ambulance"></i>
+            <h2>Выгодные цены</h2>
+            <p> Мы имеем много акция для многодетных и инвалидов т.д  и рассрочку на любой вид лечение.</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- why chose us -->
+
+
+<div class="why-chose-us">
+    <h1>Преимущества <br> EmDom-med </h1>
+   
+<div class="full-main">
+    <div class="main-choseus">
+        <div class="main-inner-chose">
+            <div class="chose-img">
+                <img src="images/medal.png" alt="">
+                
+                <p>  Серьёзный подход <br> <br> Мы делаем акцент на выборе качественных материалов и на использовании современного оборудования. Мы применяем импортные технологии и материалы высокого качества, хорошо зарекомендовавшие себя на рынке</p>
+            </div>
+        </div>
+    
+        <div class="main-inner-chose">
+            <div class="chose-img">
+                <img src="images/best.png" alt="">
+                <p> Опыт и квалификация<br> <br>Более 55 000 наших пациентов остались довольны лечением и результатом. У нас работают квалифицированные врачи, имеющие большой опыт работы </p>
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="main-choseus">
+        <img src="images/doctor.png" alt="">
+    
+    </div>
+
+    <div class="main-choseus">
+        <div class="main-inner-chose">
+            <div class="chose-img">
+                <img src="images/comf.png" alt="">
+                <p> Комфортные условия<br> <br>Наша клиника предлагает Вам не только комфортный интерьер, но и комфортные условия лечения, включающие в себя бесплатные консультации, лечение в рассрочку, различные акции, конкурсы, удобный и гибкий график посещений </p>
+            </div>
+        </div>
+    
+        <div class="main-inner-chose">
+            <div class="chose-img">
+                <img src="images/virus.png" alt="">
+                <p>Современное оборудование <br> <br>Мы используем новейшее стоматологическое оборудование, имеющее все необходимые лицензии и сертификаты </p>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+
+
+
+</div>
+
+
+
+<!-- our gallery -->
+<div class="our-gallery">
+<h1>МЫ  ИМЕЕМ </h1>
+<h1> САМЫЕ НОВЫЕ ТЕХНОЛОГИИ</h2>
+
+
+<div class="main-gallery">
+
+<div class="inner-gallery">
+    <img src="images/gallery1.jpg" class="gallery-item" alt="">
+</div>
+<div class="inner-gallery">
+    <img src="images/gallery2.jpg" class="gallery-item"  alt="">
+</div>
+
+<div class="inner-gallery"> 
+    <img src="images/gallery3.jpg"  class="gallery-item" alt="">
+</div>
+
+<div class="inner-gallery">
+    <img src="images/gallery4.jpg" class="gallery-item" alt="">
+</div>
+
+<div class="inner-gallery">
+    <img src="images/gallery5.jpg" class="gallery-item" alt="">
+</div>
+
+<div class="inner-gallery">
+    <img src="images/gallery6.jpg" class="gallery-item" alt="">
+</div>
+
+</div>
+
+</div>
+
+<div class="modal fade" id="gallery-popup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/1.jpg" class="modal-img" alt="Modal Image">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- our team -->
+<div class="our-team">
+<h1>НАША  КОМАНДА</h1>
+
+<div class="main-team">
+
+<div class="inner-team">
+    <img src="images/team1.png" alt="">
+    <h2 class="dariger">Богданова Екатерина Максимовна</h2>
+    <span class="text_lastest" ><b></b>Детский врач-стоматолог, пародонтолог,<br> хирург, ортодонт</span>
+    <div class="socail">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook"></i>
+    </div>
+</div>
+
+<div class="inner-team">
+    <img src="images/team2.png" alt="">
+    <h2 class="dariger">Рыбаков Давид Данилович</h2>
+    <span class="text_lastest" ><b></b>Старший врач-стоматолог<br>
+        Стоматолог-терапевт, хирург-имплантолог, ортодонт, ортопед</span>
+    <div class="socail">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook"></i>
+    </div>
+</div>
+
+<div class="inner-team">
+    <img src="images/team3.png" alt="">
+    <h2 class="dariger">Иванова Василиса Алексеевна</h2>
+    <span class="text_lastest" >Стоматолог-терапевт<br>
+        Детский врач-стоматолог, хирург-имплантолог, ортопе</span>
+    <div class="socail">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook"></i>
+    </div>
+</div>
+
+<div class="inner-team">
+    <img src="images/team4.png" alt="">
+    <h2 class="dariger" >Иванов Тимофей Робертович</h2>
+    <span class="text_lastest" >Стоматолог-терапевт<br>
+        Хирург, ортодонт</span>
+    <div class="socail">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook"></i>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+<!-- our footer -->
+
+<div class="our-footer">
+
+<div class="main-footer">
+    <div class="inner-footer">
+        <h1>Быстрые контакты</h1>
+
+        <div class="get-in-touch mysocial">
+            <i class="fas fa-envelope-square"></i>
+            <span>Emdom.med@gmail.kz</span>
+        </div>
+
+        <div class="get-in-touch mysocial">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Emdom.med_2@gmail.kz</span>
+        </div>
+
+        
+
+       
+
+    </div>
+
+
+
+    </div>
+
+    
+    
+
+  
+
+   
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- icons to be use -->
+
+
+<!--
+ <i class="fas fa-phone-square-alt"></i> 
+<i class="fas fa-envelope-square"></i>
+<i class="far fa-clock"></i>
+<i class="fas fa-ambulance"></i>
+<i class="fas fa-clinic-medical"></i>
+<i class="fas fa-users"></i>
+<i class="fas fa-map-marker-alt"></i>
+
+-->
+
+
+    <script src="script.js"></script>
+</body>
+</html>
